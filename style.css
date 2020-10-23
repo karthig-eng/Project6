@@ -1,0 +1,80 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+body{
+  background-color:black;
+  color:white;
+  font-family: 'Space Mono', monospace;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+h1{
+  font-size:35px;
+}
+p{
+  font-size:25px;
+}
+.welcome-section{
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-image:url("https://cdn.pixabay.com/photo/2017/08/24/03/41/milky-way-2675322_960_720.jpg")
+}
+#projects{
+  height:500px;
+  text-align:center;
+}
+.grid-container
+{
+  font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-gap: 10px;
+  margin-left:80px;
+   grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
